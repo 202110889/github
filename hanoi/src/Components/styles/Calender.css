@@ -1,0 +1,35 @@
+.calender {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.calender-day{
+    height: 150px;
+    flex-basis: 14%;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.calender-day-title {
+    flex-basis: 25px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.calender-day-content {
+    flex-basis: 75px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.calender-day-content-div {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 12pt;
+    background-color: #fee0788c;
+    text-align: center;
+}
