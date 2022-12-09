@@ -16,13 +16,11 @@
   flex: 1 0 25%;
   background-color: rgba(223, 139, 139, 0.36);
   height: 40px;
-  border: 1px dashed black;
   align-items: center;
   display: flex;
   justify-content: center;
 }
 .navbar-txt {
-  border: 1px dashed red;
   color: black;
   font-family: 'Inter', sans-serif;
   font-size: 20px;
